@@ -1,0 +1,351 @@
+{
+  "projectStartDate": "2024-10-28",
+  "tasks": [
+    {
+      "id": "1.1",
+      "name": "1.1 团队组建",
+      "start": "2024-10-28",
+      "end": "2024-11-04",
+      "progress": 50,
+      "dependencies": "",
+      "assignee": "小姜+组长"
+    },
+    {
+      "id": "1.1.1",
+      "name": "1.1.1 组长选拔",
+      "start": "2024-10-28",
+      "end": "2024-10-31",
+      "progress": 30,
+      "dependencies": "",
+      "assignee": "小姜"
+    },
+    {
+      "id": "1.1.2",
+      "name": "1.1.2 角色分工确认",
+      "start": "2024-10-31",
+      "end": "2024-11-04",
+      "progress": 70,
+      "dependencies": "1.1.1",
+      "assignee": "组长"
+    },
+    {
+      "id": "1.2",
+      "name": "1.2 需求分析",
+      "start": "2024-10-28",
+      "end": "2024-11-04",
+      "progress": 20,
+      "dependencies": "1.1.1",
+      "assignee": "张绍卿+邓子翔"
+    },
+    {
+      "id": "1.2.1",
+      "name": "1.2.1 用户需求调研",
+      "start": "2024-10-28",
+      "end": "2024-11-01",
+      "progress": 10,
+      "dependencies": "1.1.1",
+      "assignee": "张绍卿+邓子翔"
+    },
+    {
+      "id": "1.2.2",
+      "name": "1.2.2 功能需求定义",
+      "start": "2024-11-01",
+      "end": "2024-11-04",
+      "progress": 30,
+      "dependencies": "1.2.1",
+      "assignee": "全体学员+小姜"
+    },
+    {
+      "id": "1.3",
+      "name": "1.3 技术准备",
+      "start": "2024-10-28",
+      "end": "2024-11-04",
+      "progress": 50,
+      "dependencies": "",
+      "assignee": "全体学员"
+    },
+    {
+      "id": "1.3.1",
+      "name": "1.3.1 开发环境搭建",
+      "start": "2024-10-28",
+      "end": "2024-11-02",
+      "progress": 80,
+      "dependencies": "",
+      "assignee": "全体学员"
+    },
+    {
+      "id": "1.3.3",
+      "name": "1.3.3 硬件组采购开发板 ✅",
+      "start": "2024-11-02",
+      "end": "2024-11-02",
+      "progress": 100,
+      "dependencies": "",
+      "assignee": "蒋皓轩",
+      "completedDate": "2024-11-02"
+    },
+    {
+      "id": "1.3.4",
+      "name": "1.3.4 软件组确定技术选型",
+      "start": "2024-11-02",
+      "end": "2024-11-06",
+      "progress": 0,
+      "dependencies": "",
+      "assignee": "张绍卿+Mike"
+    },
+    {
+      "id": "1.3.5",
+      "name": "1.3.5 硬件软件组确认通信协议",
+      "start": "2024-11-02",
+      "end": "2024-11-06",
+      "progress": 0,
+      "dependencies": "1.3.4",
+      "assignee": "软件组+硬件组"
+    },
+    {
+      "id": "1.3.6",
+      "name": "1.3.6 软件组设计账号绑定方案",
+      "start": "2024-11-02",
+      "end": "2024-11-06",
+      "progress": 0,
+      "dependencies": "",
+      "assignee": "张绍卿+Mike"
+    },
+    {
+      "id": "2.1.3",
+      "name": "2.1.3 外观设计首次打印",
+      "start": "2024-11-02",
+      "end": "2024-11-07",
+      "progress": 0,
+      "dependencies": "2.1.1",
+      "assignee": "赵天朗+林弘毅"
+    },
+    {
+      "id": "1.3.2",
+      "name": "1.3.2 技术栈学习",
+      "start": "2024-10-30",
+      "end": "2024-11-04",
+      "progress": 40,
+      "dependencies": "1.3.1",
+      "assignee": "全体学员+导师"
+    },
+    {
+      "id": "2",
+      "name": "2. 设计阶段",
+      "start": "2024-11-04",
+      "end": "2024-11-18",
+      "progress": 0,
+      "dependencies": "1.2.2",
+      "assignee": "硬件组+软件组"
+    },
+    {
+      "id": "2.1",
+      "name": "2.1 硬件设计",
+      "start": "2024-11-04",
+      "end": "2024-11-18",
+      "progress": 0,
+      "dependencies": "1.2.2",
+      "assignee": "赵天朗+蒋浩轩"
+    },
+    {
+      "id": "2.1.1",
+      "name": "2.1.1 3D建模设计",
+      "start": "2024-11-04",
+      "end": "2024-11-11",
+      "progress": 0,
+      "dependencies": "1.2.2",
+      "assignee": "赵天朗"
+    },
+    {
+      "id": "2.1.2",
+      "name": "2.1.2 硬件选型",
+      "start": "2024-11-04",
+      "end": "2024-11-11",
+      "progress": 100,
+      "dependencies": "1.2.2",
+      "assignee": "蒋皓轩"
+    },
+    {
+      "id": "2.2",
+      "name": "2.2 软件设计",
+      "start": "2024-11-04",
+      "end": "2024-11-18",
+      "progress": 0,
+      "dependencies": "1.2.2",
+      "assignee": "张绍卿+邓子翔"
+    },
+    {
+      "id": "2.2.1",
+      "name": "2.2.1 系统架构设计",
+      "start": "2024-11-04",
+      "end": "2024-11-11",
+      "progress": 0,
+      "dependencies": "1.2.2",
+      "assignee": "张绍卿+邓子翔"
+    },
+    {
+      "id": "2.2.2",
+      "name": "2.2.2 接口设计",
+      "start": "2024-11-11",
+      "end": "2024-11-18",
+      "progress": 0,
+      "dependencies": "2.2.1",
+      "assignee": "张绍卿+邓子翔+蒋浩轩"
+    },
+    {
+      "id": "3",
+      "name": "3. 开发阶段",
+      "start": "2024-11-18",
+      "end": "2024-12-16",
+      "progress": 0,
+      "dependencies": "2",
+      "assignee": "全体团队"
+    },
+    {
+      "id": "3.1",
+      "name": "3.1 硬件开发",
+      "start": "2024-11-18",
+      "end": "2024-12-02",
+      "progress": 0,
+      "dependencies": "2.1",
+      "assignee": "蒋浩轩+赵天朗"
+    },
+    {
+      "id": "3.1.1",
+      "name": "3.1.1 原型制作",
+      "start": "2024-11-18",
+      "end": "2024-11-25",
+      "progress": 0,
+      "dependencies": "2.1",
+      "assignee": "蒋浩轩+赵天朗"
+    },
+    {
+      "id": "3.1.2",
+      "name": "3.1.2 功能测试",
+      "start": "2024-11-25",
+      "end": "2024-12-02",
+      "progress": 0,
+      "dependencies": "3.1.1",
+      "assignee": "蒋浩轩"
+    },
+    {
+      "id": "3.2",
+      "name": "3.2 软件开发",
+      "start": "2024-11-18",
+      "end": "2024-12-16",
+      "progress": 0,
+      "dependencies": "2.2",
+      "assignee": "张绍卿+邓子翔"
+    },
+    {
+      "id": "3.2.1",
+      "name": "3.2.1 核心功能开发",
+      "start": "2024-11-18",
+      "end": "2024-12-09",
+      "progress": 0,
+      "dependencies": "2.2",
+      "assignee": "张绍卿+邓子翔"
+    },
+    {
+      "id": "3.2.2",
+      "name": "3.2.2 集成测试",
+      "start": "2024-12-09",
+      "end": "2024-12-16",
+      "progress": 0,
+      "dependencies": "3.2.1",
+      "assignee": "全体软件组"
+    },
+    {
+      "id": "4",
+      "name": "4. 测试与优化",
+      "start": "2024-12-16",
+      "end": "2024-12-30",
+      "progress": 0,
+      "dependencies": "3",
+      "assignee": "全体团队"
+    },
+    {
+      "id": "4.1",
+      "name": "4.1 系统测试",
+      "start": "2024-12-16",
+      "end": "2024-12-23",
+      "progress": 0,
+      "dependencies": "3",
+      "assignee": "全体学员"
+    },
+    {
+      "id": "4.2",
+      "name": "4.2 用户体验优化",
+      "start": "2024-12-23",
+      "end": "2024-12-30",
+      "progress": 0,
+      "dependencies": "4.1",
+      "assignee": "全体学员"
+    },
+    {
+      "id": "5",
+      "name": "5. 交付阶段",
+      "start": "2024-12-30",
+      "end": "2025-01-13",
+      "progress": 0,
+      "dependencies": "4",
+      "assignee": "全体团队"
+    },
+    {
+      "id": "5.1",
+      "name": "5.1 最终测试",
+      "start": "2024-12-30",
+      "end": "2025-01-06",
+      "progress": 0,
+      "dependencies": "4",
+      "assignee": "全体学员"
+    },
+    {
+      "id": "5.2",
+      "name": "5.2 项目交付",
+      "start": "2025-01-06",
+      "end": "2025-01-13",
+      "progress": 0,
+      "dependencies": "5.1",
+      "assignee": "全体团队"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone-1",
+      "name": "团队组建完成",
+      "date": "2024-11-04",
+      "type": "milestone"
+    },
+    {
+      "id": "milestone-2",
+      "name": "设计阶段完成",
+      "date": "2024-11-18",
+      "type": "milestone"
+    },
+    {
+      "id": "milestone-3",
+      "name": "硬件原型完成",
+      "date": "2024-12-02",
+      "type": "milestone"
+    },
+    {
+      "id": "milestone-4",
+      "name": "软件核心功能完成",
+      "date": "2024-12-16",
+      "type": "milestone"
+    },
+    {
+      "id": "milestone-5",
+      "name": "系统测试完成",
+      "date": "2024-12-30",
+      "type": "milestone"
+    },
+    {
+      "id": "milestone-6",
+      "name": "项目交付完成",
+      "date": "2025-01-13",
+      "type": "milestone"
+    }
+  ]
+}
+
